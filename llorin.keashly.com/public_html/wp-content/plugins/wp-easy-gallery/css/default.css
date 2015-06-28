@@ -1,0 +1,14 @@
+.wp-easy-gallery {display: block; float: left; margin-right: 5px;}
+.wp-easy-gallery img {border: solid 1px #cccccc; padding: 2px; position: relative;display: inline-block;opacity: .75;}
+.wp-easy-gallery:hover img {opacity: 1.0;}
+.wp-easy-gallery:hover img.dShadow.trans {
+	transition: box-shadow 250ms;
+    -webkit-transition: box-shadow 250ms; /* Safari */
+	   
+	transition: opacity 250ms;
+    -webkit-transition: opacity 250ms; /* Safari */
+}
+.wp-easy-gallery:hover img.dShadow {box-shadow: 2px 2px 5px #888888;}
+
+.wpeg-gallery-name.center { text-align: center; }
+.wpeg-gallery-name.right { text-align: right; }
